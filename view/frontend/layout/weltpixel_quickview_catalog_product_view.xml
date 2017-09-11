@@ -5,7 +5,7 @@
         <referenceBlock name="product.info.addtocart" remove="true"/>
         <referenceBlock name="product.info.addtocart.additional" remove="true"/>
         <referenceBlock name="catalog.product.related" remove="true"/>
-        <referenceBlock name="catalog.product.related" remove="true"/>
+        <referenceBlock name="product.info.options.wrapper" remove="true"/>
         <referenceBlock name="product.info.upsell" remove="true"/>
         <referenceBlock name="base-header-container" remove="true"/>
         <referenceBlock name="base-footer-container" remove="true"/>
