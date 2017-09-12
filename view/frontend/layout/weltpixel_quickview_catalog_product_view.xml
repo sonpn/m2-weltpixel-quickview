@@ -26,7 +26,7 @@
         </referenceBlock>
 
         <referenceBlock name="product.info.form.content">
-            <block ifconfig="weltpixel_quickview/general/enable_goto_product_button" class="Magento\Catalog\Block\Product\View" after="product.info.addtocart" name="goto.product" as="goto.product" template="WeltPixel_Quickview::gotoproduct.phtml"/>
+            <block class="Magento\Catalog\Block\Product\View" after="product.info.addtocart" name="goto.product" as="goto.product" template="WeltPixel_Quickview::gotoproduct.phtml"/>
         </referenceBlock>
 
         <referenceContainer name="before.body.end">

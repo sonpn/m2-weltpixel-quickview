@@ -1,8 +1,18 @@
-<?php $buttonTitle = __('Go To Product');?>
+<?php $buttonTitle = __('Find store');?>
 <div class="box-gotoproduct">
     <div class="fieldset">
         <div class="actions">
-            <a target="_parent" href="<?php /* @escapeNotVerified */ echo $this->getProduct()->getProductUrl() ?>" title="<?php /* @escapeNotVerified */ echo $buttonTitle ?>" class="action primary" id="product-gotoproduct-button">
+            <a target="_parent" href="#" title="<?php /* @escapeNotVerified */ echo $buttonTitle ?>" class="action primary" id="product-findstore-button">
+                <span><?php /* @escapeNotVerified */ echo $buttonTitle ?></span>
+            </a>
+        </div>
+    </div>
+</div>
+<?php $buttonTitle = __('Agent registration');?>
+<div class="box-gotoproduct">
+    <div class="fieldset">
+        <div class="actions">
+            <a target="_parent" href="#" title="<?php /* @escapeNotVerified */ echo $buttonTitle ?>" class="action primary" id="product-agentregistration-button">
                 <span><?php /* @escapeNotVerified */ echo $buttonTitle ?></span>
             </a>
         </div>
