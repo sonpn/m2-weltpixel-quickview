@@ -36,6 +36,7 @@ class BlockProductList
         \Magento\Catalog\Model\Product $product
         )
     {
+        return '';
         $result = $proceed($product);
         $isEnabled = $this->scopeConfig->getValue(self::XML_PATH_QUICKVIEW_ENABLED,  \Magento\Store\Model\ScopeInterface::SCOPE_STORE);
         if ($isEnabled) {
