@@ -20,7 +20,7 @@ define([
                   src: prodUrl
                 },
                 type: 'iframe',
-                closeOnBgClick: false,
+                closeOnBgClick: true,
                 preloader: true,
                 tLoading: '',
                 callbacks: {
